@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Inter";
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.active li {
+  color: red;
+}
